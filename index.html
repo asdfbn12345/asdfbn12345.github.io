@@ -1,0 +1,116 @@
+<!-- 
+TODO:
+1. about-me 아이콘, 넣고 배열하기
+2. 보유 기술 수평 배열하기
+3. 개발 포트폴리오 깃헙 링크 넣기
+4. 개발 포트폴리오 카드 형태로 만들기
+5. css 꾸미기
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>태호의 개발자 포트폴리오</title>
+    <link rel="stylesheet" href="./css/index.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a class="navbar-title">태호의 포폴</a>
+            <ul class="navbar-nav">
+                <li class="navbar-item">
+                    <a class="nav-link" href="#about-me">about me</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#보유 기술">보유 기술</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#프로젝트">프로젝트</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <section id="썸네일스러운 어떤 이름">
+            <h1>태호의 개발자 포트폴리오</h1>
+            <p>
+                안녕하세요 도움이 되고싶은 개발자 이태호입니다.
+                <br />
+                컴퓨터 지식을 공부하는 것을 좋아합니다.
+            </p>
+        </section>
+        <section id="about-me">
+            <div class="about-me-container">
+                <div class="about-me-wrapper">이태호</div>
+                <div class="about-me-wrapper">1996.02.02</div>
+                <div class="about-me-wrapper">asdfbn12345@gmail.com</div>
+            </div>
+        </section>
+        <section id="보유 기술">
+            <h2>보유 기술</h2>
+            <div class="skill-container">
+                <h3>Language</h3>
+                    <ul id="skill_list">
+                        <li>C++</li>
+                        <li>C#</li>
+                    </ul>
+            </div>
+            <div class="skill-container">
+                <h3>Frontend</h3>
+                <ul>
+                    <li>공부중!</li>
+                </ul>
+            </div>
+            <div class="skill-container">
+                <h3>Backend</h3>
+                <ul>
+                    <li>공부중!</li>
+                </ul>
+            </div>
+            <div class="skill-container">
+                <h3>Game</h3>
+                <ul>
+                    <li>Unity</li>
+                </ul>
+            </div>
+        </section>
+        <section id="프로젝트">
+            <h2>프로젝트</h2>
+            <div class="project-container">
+                <div class="project-information">
+                    <h4 class="project-name">테니스 마켓</h4>
+                    <div class="project-period">2024.11</div>
+                    <div class="project-summary">
+                        <h5>웹 개발 학습 프로젝트</h5>
+                        <ul>
+                            <li>Node.js 개발 환경에 익숙해지기 위해 개발</li>
+                            <li>Docker를 사용한 MariaDB 연동</li>
+                        </ul>
+                    </div>
+                    <div class="project-url"></div>
+                    <div class="project-tech-stack">html, CSS, JavaScript, Node.js, Docker, MariaDB</div>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-information">
+                    <h4 class="project-name">포트폴리오 페이지</h4>
+                    <div class="project-period">2024.11</div>
+                    <div class="project-summary">
+                        <h5>포트폴리오 페이지</h5>
+                        <ul>
+                            <li>html, css를 활용한 정적 페이지에 익숙해지기 위해서 개발</li>
+                            <li>다른 사람에게 개발자로써의 나를 소개하기 좋은 문서를 개발</li>
+                        </ul>
+                    </div>
+                    <div class="project-url"></div>
+                    <div class="project-tech-stack">html, CSS, JavaScript</div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <footer class="footer-bar">
+
+    </footer>
+</body>
+</html>
