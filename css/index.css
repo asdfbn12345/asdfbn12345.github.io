@@ -57,6 +57,39 @@ a {
     font-weight: 700;
 }
 
+.skill-container {
+    display: flex;
+    align-items: center;
+}
+
+.skill-container h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 8rem;
+}
+
+.skill-container ul {
+    display: flex;
+    flex-flow: row;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skill-container ul li {
+    list-style: none;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    border-radius: .7rem;
+    border-color: black;
+    border-width: 1px;
+    background-color: gray;
+    color: white;
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;
