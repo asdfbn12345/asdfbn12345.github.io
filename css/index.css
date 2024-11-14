@@ -19,6 +19,8 @@ a {
     padding-top: 1rem;
     padding-bottom: 1rem;
     display: flex;
+    background-color: #1f1f1f;
+    border-bottom: .3rem solid #2b2b2b;
 }
 
 .navbar .container {
