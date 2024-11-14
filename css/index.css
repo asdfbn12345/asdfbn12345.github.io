@@ -100,10 +100,9 @@ a {
     margin-left: .25rem;
     margin-right: .25rem;
     border-radius: .7rem;
-    border-color: black;
-    border-width: 1px;
     background-color: gray;
     color: white;
+    font-weight: 500;
 }
 
 .projects {
